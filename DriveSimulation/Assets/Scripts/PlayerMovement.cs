@@ -8,8 +8,8 @@ public class PlayerMovement : MonoBehaviour
     public CharacterController controller;
     private float gravity = 40;
     private float jumpPower = 15;
-    public float xInput;
-    public float xPos;
+    private float xInput;
+    private float xPos;
     private void Start()
     {
         controller = GetComponent<CharacterController>();
@@ -17,10 +17,13 @@ public class PlayerMovement : MonoBehaviour
     private void Update()
     {
         movementVector.z = Input.GetAxis("LeftJoystickY") * speed;
-        xInput = Input.GetAxis("LeftJoystickX");
+        xInput = Input.GetAxis("LeftJoystickX") * speed;
         Debug.Log(xInput + "free");
         movementVector.x = xInput * speed * -1;
         xPos = movementVector.x;
+	Debug.Log(xPos);
+	Debug.Log(xInput);
+
         if (controller.isGrounded)
         {
             movementVector.y = 0;
