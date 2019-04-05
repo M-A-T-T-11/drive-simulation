@@ -20,6 +20,7 @@ public class DistanceChecker : MonoBehaviour
         } else {
             theDistance = -1;
         }
+        
         check(hit);
         if(theDistance < 1 && theDistance > 0 && Input.GetKeyDown(KeyCode.E) && hit.collider.tag == "CargoShip" && ready){  
             points += 2;
@@ -29,11 +30,11 @@ public class DistanceChecker : MonoBehaviour
         check(hit);
     }
 
-    void check(RaycastHit hit){
+    private void check(RaycastHit hit){
         if(!(hit.collider.tag == "CargoShip")){
             test++;
         }
-        if(test > 400){
+        if(test > 300){
             ready = true;
         }
     }
