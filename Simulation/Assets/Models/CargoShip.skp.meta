@@ -6,16 +6,16 @@ SketchUpImporter:
   selectedNodes: 0000000001000000
   assetHash:
     serializedVersion: 2
-    Hash: 1700e105d9e4e56b62b2f8a856a1fd65
+    Hash: 67d6482406a75c3dd3c3fc4ed45d6ee1
   longitude: -105.242139
   latitude: 40.018309
   northCorrection: -0
   fileUnit: 0
   sketchUpImportData:
     defaultCamera:
-      position: {x: 13.352882, y: 4.667369, z: 7.987327}
-      lookAt: {x: -6.001073, y: -4.647985, z: -3.8798318}
-      up: {x: -0.32361698, y: 0.92514724, z: -0.19843046}
+      position: {x: 5.549912, y: 3.681149, z: 6.6047688}
+      lookAt: {x: -3.2124057, y: -9.3188925, z: -12.273832}
+      up: {x: -0.22303148, y: 0.848146, z: -0.4805261}
       fov: 35
       aspectRatio: 0
       orthoSize: 1
@@ -28,6 +28,7 @@ SketchUpImporter:
     2100000: _1
     2100002: _5
     2100004: _2
+    2100006: _defaultMat
     2300000: //RootNode
     3300000: //RootNode
     4300000: Mesh CargoShip
