@@ -1719,6 +1719,9 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: -1
   m_Mesh: {fileID: 4300000, guid: 7760ae061470a4cdd98f82e5ce5612ed, type: 3}
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 0}
 --- !u!1001 &1738150930
 PrefabInstance:
   m_ObjectHideFlags: 0
