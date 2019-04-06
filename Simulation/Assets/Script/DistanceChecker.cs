@@ -34,7 +34,7 @@ public class DistanceChecker : MonoBehaviour
         if(!(hit.collider.tag == "CargoShip")){
             test++;
         }
-        if(test > 300){
+        if(test > 250){
             ready = true;
         }
     }
